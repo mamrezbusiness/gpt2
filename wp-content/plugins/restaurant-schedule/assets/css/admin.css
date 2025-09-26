@@ -1,0 +1,36 @@
+.restaurant-schedule-wrap .restaurant-schedule-days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.restaurant-schedule-wrap .restaurant-schedule-day {
+    flex: 1 1 300px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.restaurant-schedule-wrap .restaurant-schedule-range {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.restaurant-schedule-wrap .restaurant-schedule-range input[type="time"],
+.restaurant-schedule-wrap .restaurant-holiday input[type="text"] {
+    min-width: 130px;
+}
+
+.restaurant-schedule-wrap .restaurant-holiday {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.restaurant-schedule-wrap .restaurant-holidays-list {
+    max-width: 400px;
+}
