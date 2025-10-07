@@ -1,0 +1,62 @@
+.woh-weekly {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.woh-day {
+    border: 1px solid #ccd0d4;
+    padding: 12px;
+    width: calc(33% - 16px);
+    min-width: 220px;
+    background: #fff;
+}
+
+.woh-day h4 {
+    margin: 0 0 8px;
+}
+
+.woh-interval {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 6px;
+}
+
+.woh-time {
+    width: 80px;
+}
+
+.woh-time.woh-invalid {
+    border-color: #d63638;
+    box-shadow: 0 0 0 1px rgba(214, 54, 56, 0.2);
+}
+
+.woh-holiday-row,
+.woh-special-entry {
+    border: 1px solid #ccd0d4;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.woh-special-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 8px;
+}
+
+.woh-special-intervals .woh-interval {
+    margin-bottom: 4px;
+}
+
+.woh-special-heading {
+    margin: 6px 0;
+    font-weight: 600;
+}
+
+.woh-proceed-disabled {
+    cursor: not-allowed;
+}
